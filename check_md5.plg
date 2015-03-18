@@ -27,7 +27,7 @@ This plugin provides a means to check MD5 checksums against a drive
 
 
 <FILE Name="/boot/plugins/&name;" Run="upgradepkg --install-new">
-<URL>https://github.com/Squidly271/Check_MD5s/raw/master/check_md5.txz</URL>
+<URL>--nocheck-certificate https://raw.githubusercontent.com/Squidly271/Check_MD5s/master/check_md5.plg</URL>
 </FILE>
 
 <!--
@@ -42,5 +42,4 @@ This plugin provides a means to check a newly rebuilt disk's MD5 checksums for t
 </FILE>
 
 </PLUGIN>
-
 
