@@ -1,10 +1,10 @@
 <?xml version='1.0' standalone='yes'?>
 
 <!DOCTYPE PLUGIN [
-<!ENTITY name      "Check_MD5">
-<!ENTITY author    "Squid">
+<!ENTITY name      "MD5 SUite">
+<!ENTITY author    "squid">
 <!ENTITY version   "2015.03.18">
-<!ENTITY pluginURL "https://raw.githubusercontent.com/Squidly271/Check_MD5s/master/check_md5.plg">
+<!ENTITY pluginURL "https://github.com/dlandon/unraid-snap/raw/master/ntfs-3g-x86_64.plg">
 ]>
 
 <PLUGIN  name="&name;"
@@ -14,32 +14,17 @@
 
 
 <!--
-2015 - first release.
+2013-10-19 - first release
+2014-01-24 - Modified for unRAID 6 (64 bit)
 
-This plugin provides a means to check MD5 checksums against a drive
+The plugin provides ntfs-3g support for unRAID systems.
 
 -->
-<CHANGES>
-2015-03-18 - Initial Release
 
-
-</CHANGES>
-
-
-<FILE Name="/boot/plugins/&name;/check_md5.txz" Run="upgradepkg --install-new">
-<URL>--nocheck-certificate https://github.com/Squidly271/Check_MD5s/raw/master/check_md5.txz</URL>
-</FILE>
-
-<!--
-create plugin README.md file
--->
-<FILE Name="/usr/local/emhttp/plugins/&name;/README.md">
-<INLINE>
-Check MD5
-
-This plugin provides a means to check a newly rebuilt disk's MD5 checksums for the files stored on it
-</INLINE>
+<FILE NAME="/boot/plugins/&name;/check_md5.txz" Run="upgradepkg --install-new">
+<URL=https://github.com/Squidly271/Check_MD5s/raw/master/check_md5.txz</URL>
 </FILE>
 
 </PLUGIN>
+
 
