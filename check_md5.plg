@@ -4,7 +4,7 @@
 <!ENTITY name      "Check_MD5">
 <!ENTITY author    "Squid">
 <!ENTITY version   "2015.03.18">
-<!ENTITY pluginURL "https://github.com/dlandon/unraid-snap/raw/master/ntfs-3g-x86_64.plg">
+<!ENTITY pluginURL "https://raw.githubusercontent.com/Squidly271/Check_MD5s/master/check_md5.plg">
 ]>
 
 <PLUGIN  name="&name;"
@@ -40,3 +40,5 @@ Check MD5
 This plugin provides a means to check a newly rebuilt disk's MD5 checksums for the files stored on it
 </INLINE>
 </FILE>
+
+</PLUGIN>
