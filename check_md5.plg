@@ -27,7 +27,7 @@ This plugin provides a means to check MD5 checksums against a drive
 
 
 <FILE Name="/boot/plugins/&name;" Run="upgradepkg --install-new">
-<URL>--nocheck-certificate https://raw.github.com/Squidly271/Check_MD5s/blob/master/check_md5.txz</URL>
+<URL>https://raw.githubusercontent.com/Squidly271/Check_MD5s/master/check_md5.plg</URL>
 </FILE>
 
 <!--
