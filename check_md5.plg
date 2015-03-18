@@ -21,7 +21,7 @@ The plugin provides ntfs-3g support for unRAID systems.
 
 -->
 
-<FILE NAME="/boot/plugins/&name;/check_md5.txz" Run="upgradepkg --install-new">
+<FILE NAME="/boot/plugins/check_md5/check_md5.txz">
 <URL>https://github.com/Squidly271/Check_MD5s/raw/master/check_md5.txz</URL>
 </FILE>
 
