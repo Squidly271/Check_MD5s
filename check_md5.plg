@@ -4,13 +4,11 @@
 <!ENTITY name      "MD5 SUite">
 <!ENTITY author    "squid">
 <!ENTITY version   "2015.03.18">
-<!ENTITY pluginURL "https://github.com/dlandon/unraid-snap/raw/master/ntfs-3g-x86_64.plg">
 ]>
 
 <PLUGIN  name="&name;"
          author="&author;"
-         version="&version;"
-         pluginURL="&pluginURL;">
+         version="&version;">
 
 
 <!--
