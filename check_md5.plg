@@ -1,14 +1,15 @@
 <?xml version='1.0' standalone='yes'?>
 
 <!DOCTYPE PLUGIN [
-<!ENTITY name      "MD5 SUite">
+<!ENTITY name      "MD5_SuUite">
 <!ENTITY author    "squid">
 <!ENTITY version   "2015.03.18">
 ]>
 
 <PLUGIN  name="&name;"
          author="&author;"
-         version="&version;">
+         version="&version;"
+>
 
 
 <!--
